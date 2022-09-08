@@ -1,0 +1,23 @@
+.NotverifiedP{
+    text-align: center;
+    color: #D1512D;
+}
+.NotverifiedButton{
+    color: white;
+    background-color: #2B7A0B;
+    /* border-block-style: none; */
+    /* border-block-color: #7FB77E; */
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 200px;
+    height: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+.NotverifiedDiv{
+    text-align: center;
+}

@@ -1,0 +1,408 @@
+.WelcomeHeading {
+    font-size: 6em;
+    /* align-content: center; */
+    /* align-self: auto; */
+    text-align: center;
+    color:#576F72;
+    background-color: E64848;
+    background: #E4DCCF;
+    /* margin-bottom: 0px; */
+    margin-top: 0px;
+    padding-top: 70px;
+    margin-bottom: 0px;
+    height: 220px;
+}
+.WelcomeButton-Div{
+    background-color: #E4DCCF;
+    text-align: center;
+    height: 75px;
+}
+.WelcomeButton{
+    background-color: #E4DCCF;
+    border-color: #E4DCCF;
+    border-style: none;
+    border-radius: 10px;
+    color: 10em;
+    /* border-block-start: initial; */
+    width: 250px;
+    height: 47px;
+    text-size-adjust: 10em;
+    font-size: 1.5em;
+    color: #576F72;
+}
+.WelcomeButton:hover{
+    border-color: #576F72;
+    border-style: double;
+}
+.WelcomeButtonSelected{
+    border-color: #576F72;
+    border-style: double;
+}
+.Welcomesubmit{
+    color: white;
+    background-color: #576F72;
+    /* border-block-style: none; */
+    /* border-block-color: #7FB77E; */
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 162px;
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.Welcometext{
+    width: 162px;
+    height: 32px;
+    text-align: center;
+}
+.UpdateprofileDiv{
+    text-align: center;
+    color: #576F72;
+    margin-top: 100px;
+}
+.UpdatepasswordDiv{
+    text-align: center;
+    color: #576F72;
+    margin-top: 100px;
+}
+.CreateuserDiv{
+    text-align: center;
+    color: #576F72;
+    margin-top: 100px;
+}
+.ProfileDiv{
+    text-align: center;
+    color: #576F72;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.LogoutButton{
+    background-color: #E4DCCF;
+    border-color: #E4DCCF;
+    border-style: hidden;
+    border-radius: 10px;
+    color: 10em;
+    /* border-block-start: initial; */
+    width: 150px;
+    height: 47px;
+    text-size-adjust: 10em;
+    font-size: 1.5em;
+    color: #576F72;
+}
+.LogoutButton:hover{
+    border-color: #576F72;
+    border-style: double;
+}
+.WelcomelogoutdeleteDiv{
+    background-color: #E4DCCF;
+    position: relative;
+    float: right;
+}
+.DeleteDiv{
+    text-align: center;
+    color: #576F72;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.DeleteuserDiv{
+    text-align: center;
+    margin-top: 10px;
+}
+.WelcomeDeleteSubmit{
+    color: #576F72;
+    background-color: white;
+    
+    /* border-block-style: none; */
+    /* border-block-color: #7FB77E; */
+    border: none;
+    border-radius: 0.5px;
+    font-size: 20px;
+    width: 162px;
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+table, th, td {    
+    border: 1px solid #576F72;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 1000px;  
+    text-align: center;  
+    font-size: 15px;  
+    margin-bottom: 10px;
+    color: #576F72;
+    
+}   
+
+.Deleteuserp{
+    font-size: 20px; 
+    color: #576F72;
+}
+.Deleteusertabledelete{
+    color: #576F72;
+    background-color:white;
+    /* border-block-style: none; */
+    /* border-block-color: #7FB77E; */
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.Deleteusertabledelete:hover{
+    border: 1px solid #576F72;
+}
+.Deleteuserreactpagination{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #576F72;
+}
+.Deleteselect{
+    color: #576F72;
+    border-block-color: #576F72;
+    border-left-width: 1px;
+    border-left-color: #576F72;
+    border-right-color: #576F72;
+}
+.UserDiv{
+    justify-content: center;
+    margin-top: 150px;
+    display: flex;
+}
+.ProfileButton{
+    font-size: 25px;
+    background-color: #576F72;
+    border-style: double;
+    border-color: #576F72;
+    color: white;
+    border-radius: 10px;
+}
+.ProfileButton:hover{
+    background-color: white;
+    color: #576F72;
+}
+.UserButton{
+    background-color: #576F72;
+    border-style: double;
+    border-color: #576F72;
+    border-radius: 10px;
+    /* border-block-start: initial; */
+    width: 200px;
+    height: 47px;
+    text-size-adjust: 10em;
+    font-size: 1.5em;
+    color: white;
+}
+.UserButton:hover{
+    background-color: white;
+    color: #576F72;
+}
+.TaskButton{
+    font-size: 25px;
+    width: 180px;
+    height: 40px;
+    background-color: #576F72;
+    border-style: double;
+    border-color: #576F72;
+    color: white;
+    border-radius: 10px;
+}
+.TaskButton:hover{
+    background-color: white;
+    border-style: double;
+    border-color: #576F72;
+    color: #576F72;
+}
+.TaskDiv{
+    justify-content: center;
+    margin-top: 150px;
+    display: flex;
+}
+.CreatetaskDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Createtaskfiveinputs{
+    border-radius: 10px;
+    border-color: #576F72;
+}
+.Createtaskoneinput{
+    border-radius: 10px;
+    border-color: #576F72;
+}
+.Createtasksubmit{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #576F72;
+}
+.CreatetaskDIV{
+    margin-top: 70px;
+}
+.CreatetaskDatePicker{
+    width: auto;
+    
+}
+.TaskDelete{
+    background-color: white;
+}
+
+  
+  .TaskDivSelect{
+    display: block;
+  }
+  .TaskDivSelectFalse{
+display: none;
+  }
+.TaskDivInput{
+display: block;
+  }
+  .TaskDivInputFalse{
+   display: none; 
+  }
+.modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none; 
+    color: #576F72;
+    z-index: -1;
+}
+.modal.show{
+    opacity: 1;
+    pointer-events: visible;
+    z-index: 12;
+}
+.modal-content{
+    width: 500px;
+    background-color: white;
+}
+.modal-header{
+    padding: 10px;
+}
+.modal-body{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.modal-title{
+    margin: 0;
+}
+.TaskDivDiv{
+    display: flex;
+    justify-content: center;
+}
+.Taskmanagementsidebar{
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: #7FB77E;
+
+}
+.Taskmanagementsidebarbutton{
+    background-color: #7FB77E;
+    border-color: #7FB77E;
+    border-style: hidden;
+    border-radius: 10px;
+    /* border-block-start: initial; */
+    width: 250px;
+    height: 47px;
+    text-size-adjust: 10em;
+    font-size: 1.5em;
+    color: white;
+    margin: 35px 0;
+}
+.Taskmanagementanalysis{
+    float: left;
+    width: 40%;
+}
+.TaskmanagementTimeline{
+    height: 100%;
+    overflow: scroll;
+    float: left;
+    width: 40%;
+}
+
+.Notifications{
+    position: fixed;
+    right: 15%;
+    top: 8%;
+    z-index: -50;
+    opacity: 0;
+    max-width: 30%;
+    height: 70%;
+    overflow: scroll;
+    border-radius: 10px;
+    background-color:white;
+    border-style: double;
+    border-color: #E4DCCF;
+}
+.Notifications.show{
+    z-index: 20;
+    opacity: 1;
+}
+.Notification-box{
+    margin: 10px;
+}
+.Notification-item{
+    margin: 3px;
+    border-style: double;
+    padding: 10px;
+    border-color:#E4DCCF;
+    border-radius: 10px;
+    background-color:#E4DCCF;
+}
+.Notification-button{
+    background-color: #E4DCCF;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+.Notification-button:hover{
+    background-color: #576F72;
+}
+.Notification-clearDIV{
+    display: flex;
+    justify-content: center;
+}
+.Notification-clearbutton{
+    background-color: #E4DCCF;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.Notification-clearbutton:hover{
+    background-color: #576F72;
+}

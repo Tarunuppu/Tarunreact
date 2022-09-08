@@ -1,0 +1,151 @@
+async function handleorderid(e){
+        e.preventDefault();
+        console.log(typeof(e.target.name));
+        const noofrecords = parseInt(recordsperpage);
+        var followorder;
+        if(toggle.id === 'asc'){
+            settoggle({...toggle,id : "desc"});
+            followorder= "descending";
+        }
+        else {
+            settoggle({...toggle,id : "asc"});
+            followorder = "ascending";
+        }
+        let config = {
+            headers: {'Authorization': 'Bearer ' + token},
+            params: {
+                    startindex : beginwith,
+                    noofrecords : noofrecords,
+                    attribute : 'id',
+                    order : followorder
+            },
+        }
+        axios.get('http://localhost:8000/task/get-tasks',config).then((response)=>
+        {
+                setcurrentrecords(response.data.data);
+        }).catch((response)=>{
+                console.log(response.data);
+        });
+           
+        
+    }
+    async function handleordertitle(e){
+        e.preventDefault();
+        const noofrecords = parseInt(recordsperpage);
+        var followorder;
+        if(toggle.title === 'asc'){
+            settoggle({...toggle,title : "desc"});
+            followorder= "descending";
+        }
+        else {
+            settoggle({...toggle,title : "asc"});
+            followorder = "ascending";
+        }
+        let config = {
+            headers: {'Authorization': 'Bearer ' + token},
+            params: {
+                    startindex : beginwith,
+                    noofrecords : noofrecords,
+                    attribute : 'title',
+                    order : followorder
+            },
+        }
+        axios.get('http://localhost:8000/task/get-tasks',config).then((response)=>
+        {
+                setcurrentrecords(response.data.data);
+        }).catch((response)=>{
+                console.log(response.data);
+        });
+           
+        
+    }
+    async function handleorderdescription(e){
+        e.preventDefault();
+        const noofrecords = parseInt(recordsperpage);
+        var followorder;
+        if(toggle.description === 'asc'){
+            settoggle({...toggle,description : "desc"});
+            followorder= "descending";
+        }
+        else {
+            settoggle({...toggle,description : "asc"});
+            followorder = "ascending";
+        }
+        let config = {
+            headers: {'Authorization': 'Bearer ' + token},
+            params: {
+                    startindex : beginwith,
+                    noofrecords : noofrecords,
+                    attribute : 'description',
+                    order : followorder
+            },
+        }
+        axios.get('http://localhost:8000/task/get-tasks',config).then((response)=>
+        {
+                setcurrentrecords(response.data.data);
+        }).catch((response)=>{
+                console.log(response.data);
+        });
+           
+        
+    }
+    async function handleorderassignee(e){
+        e.preventDefault();
+        const noofrecords = parseInt(recordsperpage);
+        var followorder;
+        if(toggle.assignee === 'asc'){
+            settoggle({...toggle,assignee : "desc"});
+            followorder= "descending";
+        }
+        else {
+            settoggle({...toggle,assignee : "asc"});
+            followorder = "ascending";
+        }
+        let config = {
+            headers: {'Authorization': 'Bearer ' + token},
+            params: {
+                    startindex : beginwith,
+                    noofrecords : noofrecords,
+                    attribute : 'assignee',
+                    order : followorder
+            },
+        }
+        axios.get('http://localhost:8000/task/get-tasks',config).then((response)=>
+        {
+                setcurrentrecords(response.data.data);
+        }).catch((response)=>{
+                console.log(response.data);
+        });
+           
+        
+    }
+    async function handleordercreatedby(e){
+        e.preventDefault();
+        const noofrecords = parseInt(recordsperpage);
+        var followorder;
+        if(toggle.createdby === 'asc'){
+            settoggle({...toggle,createdby : "desc"});
+            followorder= "descending";
+        }
+        else {
+            settoggle({...toggle,createdby : "asc"});
+            followorder = "ascending";
+        }
+        let config = {
+            headers: {'Authorization': 'Bearer ' + token},
+            params: {
+                    startindex : beginwith,
+                    noofrecords : noofrecords,
+                    attribute : 'createdby',
+                    order : followorder
+            },
+        }
+        axios.get('http://localhost:8000/task/get-tasks',config).then((response)=>
+        {
+                setcurrentrecords(response.data.data);
+        }).catch((response)=>{
+                console.log(response.data);
+        });
+           
+        
+    }

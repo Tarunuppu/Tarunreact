@@ -1,0 +1,36 @@
+.Heading {
+    font-size: 8em;
+    /* align-content: center; */
+    /* align-self: auto; */
+    text-align: center;
+    color: #576F72;
+    background-color: #E4DCCF;
+    background: #E4DCCF;
+    /* margin-bottom: 0px; */
+    margin-top: 0px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    height: 310px;
+}
+.Button-Div{
+    background-color: #E4DCCF;
+    text-align: center;
+    height: 50px;
+}
+.Button{
+    background-color: #E4DCCF;
+    border-style: none;
+    color: 10em;
+    /* border-block-start: initial; */
+    width: 250px;
+    height: 47px;
+    text-size-adjust: 10em;
+    font-size: 1.5em;
+    color: #576F72;
+    border-radius: 10px;
+}
+.Button:hover{
+    border-color: #576F72;
+    border-style: double;
+}

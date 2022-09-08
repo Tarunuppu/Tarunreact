@@ -1,0 +1,43 @@
+.Div-LSFLogin{
+    text-align: center;
+    color: #576F72;
+    margin-top: 50px;
+}
+.Div-LSFSignup{
+    text-align: center;
+    color: #576F72;
+    margin-top: 50px;
+}
+.Div-LSFForgot{
+    text-align: center;
+    color: #576F72;
+    margin-top: 50px;
+}
+.LSFsubmit{
+    color: white;
+    background-color: #576F72;
+    /* border-block-style: none; */
+    /* border-block-color: #7FB77E; */
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 180px;
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+.LSFtext{
+    border-radius: 10px;
+    border-style: double;
+    border-color: #576F72;
+    width: 180px;
+    height: 32px;
+    text-align: center;
+}
+.Div-Forgot{
+    text-align: center;
+    color: #7FB77E;
+}
