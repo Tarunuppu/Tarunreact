@@ -11,7 +11,10 @@ import { setallusers, setemail, setrole } from "./userslice";
 import { setmessage } from "./messageslice";
 import { useEffect } from "react";
 import Notifications from "./Notifications";
+import Pusher from "pusher-js";
 import "./Welcomestyles.css";
+import { getType } from "@reduxjs/toolkit";
+import { type } from "@testing-library/user-event/dist/type";
 
 function Welcome() {
   //const $token=useSelector((state)=>state.token.value);
@@ -19,6 +22,7 @@ function Welcome() {
   const navigate = useNavigate();
   const [temp, settemp] = useState(true);
   const [show, setshow] = useState(false);
+  const [pusheremail, setpusheremail] = useState("");
   const token = localStorage.access_token;
 
   const handleprofile = (e) => {
@@ -63,6 +67,7 @@ function Welcome() {
         dispatch(setrole(response.data.role));
         dispatch(setemail(response.data.email));
         dispatch(setid(response.data.id));
+        setpusheremail(response.data.email);
         settemp(false);
       })
       .catch((response) => {
@@ -70,6 +75,18 @@ function Welcome() {
         navigate("/");
       });
   }, []);
+  Pusher.logToConsole = true;
+
+  var pusher = new Pusher("20592192baa0019cf044", {
+    cluster: "ap2",
+  });
+  console.log(pusheremail);
+  console.log("hello brother");
+  console.log(typeof pusheremail);
+  var channel = pusher.subscribe(pusheremail);
+  channel.bind("my-event", function (data) {
+    alert(JSON.stringify(data));
+  });
   function Welcomedisplay() {
     return (
       <div>
@@ -80,8 +97,9 @@ function Welcome() {
           <button className="LogoutButton" onClick={handlelogout} id="">
             Logout
           </button>
+          <Notifications show={show} />
         </div>
-        <Notifications show={show} />
+        {/* <Notifications show={show} /> */}
         <div>
           <h1 className="WelcomeHeading">
             WELCOME {useSelector((state) => state.userdetails.name)}

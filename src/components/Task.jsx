@@ -149,7 +149,7 @@ function Task() {
     setisUpdateChecked(updatedCheckedState1);
     console.log(isUpdateChecked);
     console.log(updatecollect);
-    console.log(id);
+    // console.log(id);
   }
   function handlemuldelete(position, id) {
     let tempcollection = deletecollect;
@@ -172,9 +172,9 @@ function Task() {
     });
 
     setisDeleteChecked(updatedCheckedState);
-    console.log(isDeleteChecked);
+    // console.log(isDeleteChecked);
     console.log(deletecollect);
-    console.log(id);
+    // console.log(id);
     // if (isDeleteChecked[index] === true) {
     //   setcountdelete(countdelete - 1);
     // } else {
