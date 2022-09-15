@@ -1,10 +1,23 @@
 .Filteroptionsform{
     margin-top: 50px;
     margin-bottom: 10px;
-    color: #FFC090;
+    color: #576F72;
 }
 .Filteroptionsinput{
-    color: #FFC090;
+    color: #576F72;
+    background-color: white;  
+    border-style: double;
+}
+.FilteroptionsSubmit{
+    border-style: none;
+    color: white;
+    background-color: #576F72;
+}
+.FilteroptionsSubmit:hover{
+    border-style: double;
+    border-color: #576F72;
+    color: #576F72;
+    background-color: white;
 }
 .FilteroptionsDiv{
     text-align: center;

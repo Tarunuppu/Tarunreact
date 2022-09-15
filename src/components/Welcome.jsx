@@ -42,7 +42,7 @@ function Welcome() {
 
   const handletaskmanagement = (e) => {
     e.preventDefault();
-    navigate("/taskmanagement");
+    navigate("/welcome/taskmanagement");
   };
 
   const handlelogout = (e) => {

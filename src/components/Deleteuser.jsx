@@ -138,7 +138,7 @@ function Deleteuser() {
         <p>loading...</p>
       ) : (
         <div className="DeleteuserDiv">
-          <button className="Deleteusertabledelete" onClick={handleclick}>
+          <button className="DeleteUserFilterButton" onClick={handleclick}>
             Filter Options
           </button>
           <Records currentrecords={currentrecords} />
